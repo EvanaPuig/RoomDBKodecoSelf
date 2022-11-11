@@ -3,15 +3,15 @@
 buildscript {
 
   ext {
-    kotlin_version = '1.6.20'
-    compileSdkVersion = 29
+    kotlin_version = '1.7.20'
+    compileSdkVersion = 32
     targetSdkVersion = compileSdkVersion
     minSdkVersion = 23
   }
 
   repositories {
     google()
-    jcenter()
+    mavenCentral()
   }
 
   dependencies {
@@ -26,7 +26,7 @@ buildscript {
 allprojects {
   repositories {
     google()
-    jcenter()
+    mavenCentral()
   }
 }
 
